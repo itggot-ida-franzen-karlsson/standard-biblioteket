@@ -1,4 +1,15 @@
-# Tar en sträng och två integers som input och ger en ny sträng som output, där alla tecken i strängen mellan talen är urklippta.
+# Public: Slices a string between two integers and removes the characters within it
+#
+# text     - The String to be sliced
+# slicer 1 - The Integer to set the first mark for the slice
+# slicer 2 - The Integer to set the second mark for the slice
+# 
+# Examples
+#
+#   slice("hello world", 2, 6)
+#   # => "heorld"
+#
+# Returns the sliced string
 
 def slice(str, int1, int2)
     i = 0
