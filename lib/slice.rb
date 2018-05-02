@@ -1,8 +1,8 @@
 # Public: Slices a string between two integers and removes the characters within it
 #
-# text     - The String to be sliced
-# slicer 1 - The Integer to set the first mark for the slice
-# slicer 2 - The Integer to set the second mark for the slice
+# str     - The String to be sliced
+# int1    - The Integer to set the first mark for the slice
+# int2    - The Integer to set the second mark for the slice
 # 
 # Examples
 #
@@ -10,7 +10,6 @@
 #   # => "heorld"
 #
 # Returns the sliced string
-
 def slice(str, int1, int2)
     i = 0
     new_str = ""
